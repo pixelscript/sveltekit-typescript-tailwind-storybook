@@ -1,0 +1,3 @@
+# Counter
+
+Simple counter boi

@@ -8,6 +8,7 @@ module.exports = ({ config, mode }) => {
         ...svelteLoader.options,
         emitCss: true,
         hotReload: false,
+        preprocess: require('svelte-preprocess')({}),
     };
 
     config.module.rules.push(

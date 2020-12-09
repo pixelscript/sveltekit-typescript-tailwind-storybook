@@ -2,15 +2,16 @@
 
 A baked version of [babichjacob/svelte-add-tailwindcss](https://github.com/babichjacob/svelte-add-tailwindcss) combined with [jerriclynsjohn/svelte-storybook-tailwind](https://github.com/jerriclynsjohn/svelte-storybook-tailwind)
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
 ```bash
-npm run dev
+// Quickstart
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+npx degit pixelscript/sveltekit-typescript-tailwind-storybook my-svelte-project
+cd my-svelte-project
+
+# important to do - npm ic - otherwise you'll get root.js: NOT_FOUND error
+npm ic
+npm run dev
+npm run stories
 ```
 
 ## Building
